@@ -4,7 +4,7 @@ class CreateFilms < ActiveRecord::Migration[5.1]
       t.string :title
       t.integer :year
       t.string :description
-      t.enum :genre
+      t.string :genre
 
       t.timestamps
     end
